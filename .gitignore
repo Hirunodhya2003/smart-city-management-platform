@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+backend/.venv/
+.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Flutter generated files
+frontend/smart_city_app/.dart_tool/
+frontend/smart_city_app/build/
+frontend/smart_city_app/.flutter-plugins
+frontend/smart_city_app/.flutter-plugins-dependencies
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
